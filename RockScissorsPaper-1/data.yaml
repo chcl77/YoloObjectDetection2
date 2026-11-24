@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Paper', 'Rock', 'Scissors']
+
+roboflow:
+  workspace: s-workspace-mgj2j
+  project: rocksiccorspaper
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/s-workspace-mgj2j/rocksiccorspaper/dataset/1
